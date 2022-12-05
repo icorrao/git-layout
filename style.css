@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0efe7;
+}
+
+a {
+    color: #0388a6;
+    text-decoration: none;
+}
+
+header {
+    background-color: #f0efe7;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 14px 0;
+}
+
+form img {
+    height: 30px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    height: 40px;
+    margin-right: 12px;
+}
+
+.header-left span {
+    margin-top: 1px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #9a9994;
+}
+
+.header-right input[type="text"] {
+    width: 300px;
+    padding: 10px 20px 10px 35px;
+    border-radius: 20px;
+    border: 1px solid #ceccc5;
+}
+
+.header-right input[type="text"]:focus {
+    outline: 1px solid #ceccc5;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.header-right img {
+    height: 15px;
+    position: relative;
+    left: 30px;
+    top: 3px
+}
+
+.main {
+    height: 296px;
+    background: url(img/isometric-grid.png) top right repeat;
+    margin-bottom: 40px;
+}
+
+.main-content {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.main p {
+    font-size: 21px;
+    overflow-wrap: break-word;
+}
+
+.main-text {
+    margin: auto;
+    padding: 20px;
+}
+
+.main-picture img {
+    height: 250px;
+    margin-top: 30px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.item img {
+    width: 74px;
+    margin-right: 20px;
+}
+
+.item h3 {
+    font-size: 22px;
+    color: #ef391a;
+    margin-bottom: 5px;
+}
+
+.item p {
+    font-size: 17px;
+    line-height: 17.6px;
+    color: #4e443c;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.book {
+    padding: 20px 0;
+    border-top: solid 1px #d8d7cf;
+    display: flex;
+    justify-content: center;
+}
+
+.book img {
+    width: 56px;
+}
+
+.book p {
+    padding-left: 30px;
+    color: #5a5a5a;
+    margin: auto;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
+.container-left {
+    padding-right: 40px;
+    border-right: solid 1px #d8d7cf;
+}
+
+.container-right img {
+    display: block;
+}
+
+.monitor {
+    background: transparent url(/img/monitor.png) no-repeat;
+    background-position: 0 -20px;
+    width: 320px;
+    height: 250px;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.monitor h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.monitor a,
+.monitor span {
+    color: white;
+}
+
+.version {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.download {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    background-image: linear-gradient(#1c868c, #186368);
+}
+
+.container-right {
+    margin-left: 40px;
+    height: 270px;
+}
+
+.container-right-links {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+.container-right-links a {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container-right-links a img {
+    display: inline;
+    margin-right: 10px;
+}
+
+.companies {
+    width: 50%;
+    padding-top: 20px;
+    margin: auto;
+    border-top: solid 1px #d8d7cf;
+}
+
+.companies h3 {
+    text-align: center;
+    color: #4e443c;
+}
+
+footer {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 40px;
+    margin-top: 35px;
+    line-height: 15.4px;
+    color: #9a9994;
+    border-top: solid 1px #d8d7cf;
+}
+
+footer a {
+    color: #403f3c;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-left img {
+    margin-right: 10px;
+}
